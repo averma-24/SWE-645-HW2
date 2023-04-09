@@ -13,8 +13,8 @@ pipeline {
                sh 'jar -cvf studentSurveyForm.war -C main/webapp .'
                //sh 'echo ${BUILD_TIMESTAMP}'
 
-               docker.withRegistry('',registryCredential){
-            def customImage = docker.build("averma24/studentsurveyassignment:0.1")
+               docker.withRegistry('https://index.docker.io/v1/', registryCredential){
+                  def customImage = docker.build("averma24/studentsurveyassignment:0.1")
                }
             }
          }
@@ -23,7 +23,7 @@ pipeline {
       stage('Push Image to Dockerhub') {
          steps {
             script{
-               docker.withRegistry('',registryCredential){
+               docker.withRegistry('https://index.docker.io/v1/', registryCredential){
                   sh 'docker push averma24/studentsurveyassignment:0.1'
                }
             }
