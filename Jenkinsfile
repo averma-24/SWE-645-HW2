@@ -33,7 +33,7 @@ pipeline {
       stage('Deploying Rancher to single pod') {
          steps {
             script{
-               sh 'kubectl set image deployment/deploymentone container-0=averma24/studentsurveyassignment:0.1'
+               sh 'kubectl set image deployment/k8 container-0=averma24/studentsurveyassignment:0.1'
             }
          }
       }
@@ -41,7 +41,7 @@ pipeline {
       stage('Deploying Rancher as with load balancer') {
          steps {
             script{
-               sh 'kubectl set image deployment/deploymentone-lb container-0=averma24/studentsurveyassignment:0.1'
+               sh 'kubectl set image deployment/k8-lb container-0=averma24/studentsurveyassignment:0.1'
             }
          }
       }
