@@ -38,12 +38,6 @@ pipeline {
          }
       }
 
-      stage('Deploying Rancher as with load balancer') {
-         steps {
-            script{
-               sh 'kubectl set image deployment/student-survey-lb container-0=averma24/studentsurveyassignment:0.1'
-            }
-         }
-      }
+      
    }
 }
