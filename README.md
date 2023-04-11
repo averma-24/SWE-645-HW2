@@ -42,7 +42,7 @@ https://hub.docker.com/r/averma24/studentsurveyassignment/tags
 11. Running the Jenkinsfile
 44.194.15.192:8080
 12. Accessing URL path & Kubernetes service in Rancher
-https://34.194.61.172/k8s/clusters/c-w2vxb/api/v1/namespaces/default/services/http:student-su rvey-lb:8080/proxy/studentSurveyForm/
+https://34.194.61.172/k8s/clusters/c-w2vxb/api/v1/namespaces/default/services/http:student-survey-lb:8080/proxy/studentSurveyForm/
 Note : Since the AWS EC2 is deployed using AWS Learner Lab, this link would not be accessible at the time this document would be viewed.
 Conclusion :
 By following these steps we were able to
