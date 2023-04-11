@@ -24,10 +24,7 @@ Link for Student Survey Form(Part 2): https://ec2-44-197-169-25.compute-1.amazon
 2. GitHub Repository
 https://github.com/averma-24/
 3. Video Demonstration
-https://gmuedu-my.sharepoint.com/personal/averma24_gmu_edu/_layouts/15/stream.aspx?id=
-SIMRAN BAYAS, ABHISHEK VERMA
-   
-%2Fpersonal%2Faverma24%5Fgmu%5Fedu%2FDocuments%2FSWE645%2DHW2%2DREC
+https://gmuedu-my.sharepoint.com/personal/averma24_gmu_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Faverma24%5Fgmu%5Fedu%2FDocuments%2FSWE645%2DHW2%2DREC
 %2Emp4&ga=1
 4. Creating a Docker Image and pushing it to DockerHub
 https://hub.docker.com/r/averma24/studentsurveyassignment/tags
